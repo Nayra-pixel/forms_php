@@ -8,12 +8,12 @@
 </head>
 <body>
 	<h1>Formulário PHP</h1>
-	<form action="#" method="GET">
-		Nome:
-		<input type="text" name="nome">
+	<form action="#" method="POST">
+		<label for="nome">Nome:</label>
+		<input type="text" name="nome" id="nome" placeholder="Insira seu nome" maxlength="50" required autocomplete="off">
 		<br>
-		E-mail:
-		<input type="email" name="email">
+		<label for="email">E-mail:</label>
+		<input type="email" name="email" id="email" placeholder="Insira seu E-mail" maxlength="50" required autocomplete="off">
 		<br>
 		<input type="submit" name="enviar" value="Acessar o Sistema">
 		
